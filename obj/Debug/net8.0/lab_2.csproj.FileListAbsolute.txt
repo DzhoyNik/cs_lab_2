@@ -1,0 +1,15 @@
+C:\Users\Антон\source\repos\Lab_2\bin\Debug\net8.0\lab_2.exe
+C:\Users\Антон\source\repos\Lab_2\bin\Debug\net8.0\lab_2.deps.json
+C:\Users\Антон\source\repos\Lab_2\bin\Debug\net8.0\lab_2.runtimeconfig.json
+C:\Users\Антон\source\repos\Lab_2\bin\Debug\net8.0\lab_2.dll
+C:\Users\Антон\source\repos\Lab_2\bin\Debug\net8.0\lab_2.pdb
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.AssemblyInfoInputs.cache
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.AssemblyInfo.cs
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.csproj.CoreCompileInputs.cache
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.sourcelink.json
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.dll
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\refint\lab_2.dll
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.pdb
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\lab_2.genruntimeconfig.cache
+C:\Users\Антон\source\repos\Lab_2\obj\Debug\net8.0\ref\lab_2.dll
