@@ -2,9 +2,18 @@
 {
     internal class Program
     {
-        static void Main(string[] args)
+        class Singleton
         {
-            Console.WriteLine("Hello world!")
+            private static Singleton? instance;
+            private Singleton() { }
+            public static Singleton getInstance()
+            {
+                if (instance == null)
+                    instance = new Singleton();
+                return instance;
+            }
         }
+
+        static void Main(string[] args) {}
     }
 }
