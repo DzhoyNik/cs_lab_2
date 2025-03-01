@@ -16,6 +16,7 @@ namespace lab_2
       Console.WriteLine($"\nСвойства:\n* Название файла: {fileName}\n* Владелец файла: {fileOwner}\n* Расположение файла: {filePath}");
     }
   }
+  
   class MSWord : Document
   {
     override public void ExportInfoForFile(string _path)
@@ -28,50 +29,47 @@ namespace lab_2
       Console.WriteLine($"* Количество слов: {countWords}\n");
     }
   }
+  
   class PDF : Document
   {
     override public void ExportInfoForFile(string _path)
     {
       int CountPages = 15;
-      
       base.ExportInfoForFile(_path);
-      
       Console.WriteLine($"* Количество страниц: {CountPages}\n");
     }
   }
+  
   class MSExcel : Document
   {
     override public void ExportInfoForFile(string _path)
     {
       string sizeFile = "187 КБ";
-      
       base.ExportInfoForFile(_path);
-      
       Console.WriteLine($"* Размер файла: {sizeFile}\n");
     }
   }
+  
   class TXT : Document
   {
     override public void ExportInfoForFile(string _path)
     {
       string dateCreate = "05.01.2025";
-      
       base.ExportInfoForFile(_path);
-      
       Console.WriteLine($"* Дата создания: {dateCreate}\n");
     }
   }
+  
   class HTML : Document
   {
     override public void ExportInfoForFile(string _path)
     {
       string typeFile = "HTML Document";
-
       base.ExportInfoForFile(_path);
-
       Console.WriteLine($"* Тип документа: {typeFile}\n");
     }
   }
+  
   internal class Program
   {
     class Singleton
@@ -85,6 +83,7 @@ namespace lab_2
         return instance;
       }
     }
+    
     static void Main(string[] args) {
       while (true)
       {
@@ -96,42 +95,31 @@ namespace lab_2
         {
           case "docx":
             MSWord mSWord = new MSWord();
-
             mSWord.ExportInfoForFile(path);
-
             break;
 
           case "pdf":
             PDF pdf = new PDF();
-            
-            pdf.ExportInfoForFile(path);
-            
+            pdf.ExportInfoForFile(path);            
             break;
 
           case "xlsx":
             MSExcel mSExcel = new MSExcel();
-
             mSExcel.ExportInfoForFile(path);
-
             break;
 
           case "txt":
             TXT txt = new TXT();
-
             txt.ExportInfoForFile(path);
-
             break;
 
           case "html":
             HTML html = new HTML();
-
             html.ExportInfoForFile(path);
-
             break;
 
           default:
             Console.WriteLine("\nВвден файл с неизвестным форматом (поддерживается .docx, .pdf, .xlsx, .txt, .html) или указан неправильный путь к файлу\n");
-              
             break;
         }
       }
